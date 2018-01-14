@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>popup_registration</title>
+	<link rel="stylesheet" type="text/css" href="../css/slick.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/lightslider.css">
+	<link rel="stylesheet" type="text/css" href="../css/select2.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link href="../css/green.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/lightgallery.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<button type="button" class="btn btn-primary btn-lg card_preview_1__modal__but" data-toggle="modal" data-target="#myModal">
+				  Launch demo modal
+		</button>
+		<div class="modal fade popup_registration popup_registration__padding" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<h2>Регистрация</h2>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		      </div>
+		      <div class="modal-body">
+	      		<form action="#" class="popup_registration__left_form_block__form">
+		      		<div class="popup_registration__left_form_block">
+		      			<div class="popup_registration__left_form_block__form__input_block">
+		      				<h5>Имя</h5>
+		      				<input type="text" placeholder="Константин">
+		      				<h5>Фамилия</h5>
+		      				<input type="text" placeholder="Константин">
+		      				<h5>Отчество</h5>
+		      				<input type="text" placeholder="Константин">
+		      			</div>
+		      			<div class="popup_registration__left_form_block__form__radio_block">
+		      				<span>пол</span>
+		      				<ul>
+		      					<li>
+		      						<input type="radio" id="popup_registration__rad1" name="s_radio">
+		      						<label for="popup_registration__rad1">Женский</label>
+		      					</li>
+		      					<li>
+		      						<input type="radio" id="popup_registration__rad2" name="s_radio">
+		      						<label for="popup_registration__rad2">Мужской</label>
+		      					</li>
+		      				</ul>
+		      			</div>
+		      			<div class="popup_registration__left_form_block__form__select_block">
+		      				<span>дата рождения</span>
+		      				<select class="js-example-basic-single popup_registration__left_form_block__form__select_block__select__first">
+							  <option value="d1">01</option>
+							  <option value="d2">02</option>
+							  <option value="d3">03</option>
+							  <option value="d4">04</option>
+							  <option value="d5">05</option>
+							  <option value="d6">06</option>
+							  <option value="d7">07</option>
+							  <option value="d8">08</option>
+							</select>
+							<select class="js-example-basic-single popup_registration__left_form_block__form__select_block__select__second">
+							  <option value="m1">01</option>
+							  <option value="m2">02</option>
+							  <option value="m3">03</option>
+							  <option value="m4">04</option>
+							  <option value="m5">05</option>
+							  <option value="m6">06</option>
+							  <option value="m7">07</option>
+							  <option value="m8">08</option>
+							</select>
+							<select class="js-example-basic-single popup_registration__left_form_block__form__select_block__select__third">
+							  <option value="y1">1999</option>
+							  <option value="y2">1998</option>
+							  <option value="y3">1997</option>
+							  <option value="y4">1996</option>
+							  <option value="y5">1995</option>
+							  <option value="y6">1994</option>
+							  <option value="y7">1993</option>
+							  <option value="y8">1992</option>
+							</select>
+		      			</div>
+		      			<div class="popup_registration__left_form_block__form__checkbox_block">
+		      				<ul>
+		      					<li>
+		      						<input type="checkbox" id="popup_registration__chk1" name="s_radio">
+		      						<label for="popup_registration__chk1">Получать рассылку</label>
+		      					</li>
+		      					<li>
+		      						<input type="checkbox" id="popup_registration__chk2" name="s_radio">
+		      						<label for="popup_registration__chk2">Учавствовать в бонусной программе</label>
+		      					</li>
+		      				</ul>
+		      			</div>
+		      		</div>
+		      		<div class="popup_registration__right_form_block">
+		      			<div class="popup_registration__right_form_block__form__input_block">
+		      				<h5>email</h5>
+		      				<input type="text" placeholder="text@gmail.com">
+		      				<h5>Телефон</h5>
+		      				<input type="text" placeholder="+7(915) 222-22-22">
+		      				<div class="pin top_pin">
+		      					<h5>Пароль</h5>
+		      					<input type="text" placeholder="......">
+		      				</div>
+		      				<div class="pin repeat_pin">
+		      					<h5>Повторить пароль</h5>
+		      					<input type="text" placeholder="......">
+		      				</div>
+		      			</div>
+		      		</div>
+		      		<div class="popup_registration__left_form_block__form__butt_block">
+	      				<button>
+	      					зарегистрироваться
+	      				</button>
+	      			</div>
+	      		</form>
+	      		</div>
+		      <div class="modal-footer">
+				<div class="popup_registration__footer_block">
+			      	<h4>Войти через соцсети</h4>
+			      	<ul class="popup_registration__footer_block__ul">
+			      		<li><a href=""><img src="../img/modal_f.png" alt="img"></a></li>
+			      		<li><a href=""><img src="../img/modal_b.png" alt="img"></a></li>
+			      		<li><a href=""><img src="../img/modal_o.png" alt="img"></a></li>
+			      		<li><a href=""><img src="../img/modal_t.png" alt="img"></a></li>
+			      	</ul>
+			      </div>
+		      </div>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/select2.js"></script>
+	<script type="text/javascript" src="../js/lightslider.js"></script>
+	<script src="../js/icheck.min.js"></script>
+	<script type="text/javascript" src="../js/select.js"></script>
+	<script type="text/javascript" src="../js/slick.js"></script>
+	<script type="text/javascript" src="../js/lightgallery.min.js"></script>
+	<script type="text/javascript" src="../js/kochka.js"></script>
+</body>
+</html>

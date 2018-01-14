@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>popup location</title>
+	<link rel="stylesheet" type="text/css" href="../css/slick.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/select2.css">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	
+	<div class="wrapper">
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+				  Launch demo modal
+				</button>
+				<div class="modal fade popup_pickup_1__modal popup_location__modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <i class="fa fa-angle-left h4_i" aria-hidden="true"></i>
+				        <h4 class="modal-title" id="myModalLabel">Найдите свой город</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<div class="autocomplite_div autocomplite_div--active">
+				      		<i class="fa fa-search" aria-hidden="true"></i>
+				      		<input type="text" class="autocomplete" placeholder="Поиск города">
+				      	</div>
+				      	<div class="choose_autocomplete_city choose_autocomplete_city--active">
+				      		<ul>
+				      			<li>
+				      				<a href="">Москва</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Волгоград</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Воронеж</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Екатеринбург</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Казань</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Краснодар</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Красноярск</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Нижний Новгород</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Новосибирск</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Пермь</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Ростов-на-Дону</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Самара</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Санкт-Петербург</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Уфа</a>
+				      			</li>
+				      			<li>
+				      				<a href="">Челябинск</a>
+				      			</li>
+				      		</ul>
+				      	</div>
+				      </div>
+				      <div class="modal-footer">
+				        
+				      </div>
+				    </div>
+				  </div>
+				</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcoPU5bL4ZG-kNgZkAA7IqCynhq5nLCbs&signed_in=true&libraries=places&language=en"></script>
+	<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/select2.js"></script>
+	<script src="../js/icheck.min.js"></script>
+	<script type="text/javascript" src="../js/slick.js"></script>
+	<script type="text/javascript" src="../js/kochka.js"></script>
+</body>
+</html>
